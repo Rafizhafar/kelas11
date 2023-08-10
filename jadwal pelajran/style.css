@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Indie Flower', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-image: url('bg.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.container {
+    background-color: rgb(15, 82, 128);
+    width: 800px;
+    height: 500px;
+    position: relative;
+    margin-left: 250px;
+    margin-top: 70px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px ;
+}
+.header {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+
+}
+.header h1 {
+    margin-left: 25px;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(248, 228, 48);
+    text-shadow: 3px 3px 3px #000;
+    font-size: 35px;
+}
+.iden button{
+    margin-right: 25px;
+    background-color: rgb(240, 125, 17);
+    width: 200px;
+    height: 25px;
+    border-radius: 3px;
+    border: 0;
+    text-align: left;
+}
+.iden p{
+    margin-left: 5px;
+    color: azure;
+}
+.iden .b {
+    margin-top: 3px;
+}
+.main {
+    text-align: center;
+    margin-left: 5px;
+}
+.main table, tr,td,th{
+    border: 7px solid transparent;
+    width: 800px;
+    height: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+.row {
+    font-size: 13px;
+}
+thead, .row{
+    background-color: rgb(240, 125, 17);
+} 
+td {
+    background-color: rgba(131, 126, 126, 0.562);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+}
