@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>CSS BASIC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="color">
+        <h3>Color/Warna :<br>ini berfungsi untuk mewarnai objek,Warna ditentukan menggunakan nama warna yang telah
+            ditentukan<br>
+            sebelumnya, atau nilai RGB, HEX, HSL, RGBA, HSLA.Dan ini contoh warna dari HEX</h3>
+        <h1 style="background-color:Tomato;">Tomato</h1>
+        <h1 style="background-color:Orange;">Orange</h1>
+        <h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+    </div>
+
+    <div class="background">
+        <h3>Background/Latar belakang :<br>Properti latar belakang CSS digunakan untuk menambahkan efek latar belakang
+            untuk elemen.
+            <ul>
+                <li style="background-color: aqua;">background-color</li>
+                <li> background-image<br><img src="bg.jpg" width="100px" height="50px"></li>
+            </ul>
+        </h3>
+    </div>
+
+    <div class="border">
+        <h3>Border/Perbatasan :<br>Properti perbatasan CSS memungkinkan Anda menentukan gaya, lebar, dan warna
+            perbatasan elemen.<br>Properti border-stylemenentukan jenis batas yang akan ditampilkan.
+
+            Nilai berikut diperbolehkan:<br>
+            <p class="dotted">Mendefinisikan perbatasan bertitik</p>
+            <p class="dashed">Mendefinisikan perbatasan putus-putus</p>
+            <p class="solid">Mendefinisikan perbatasan yang solid</p>
+            <p class="double">Mendefinisikan perbatasan ganda</p>
+            <p class="groove">Mendefinisikan perbatasan berlekuk 3D. Efeknya tergantung pada nilai warna batas</p>
+            <p class="ridge">Mendefinisikan perbatasan bergerigi 3D. Efeknya tergantung pada nilai warna batas</p>
+            <p class="inset">Menentukan perbatasan sisipan 3D. Efeknya tergantung pada nilai warna batas</p>
+            <p class="outset">Menentukan batas awal 3D. Efeknya tergantung pada nilai warna batas</p>
+            <p class="none">Mendefinisikan tanpa batas</p>
+            <p class="hidden">Mendefinisikan perbatasan tersembunyi</p>
+        </h3>
+    </div>
+
+    <h3>Padding :<br>Padding digunakan untuk membuat ruang di sekitar konten elemen, di dalam batas yang ditentukan.
+    </h3>
+    <div class="padding" style="text-align: center;">Elemen div ini memiliki padding atas 50px, padding kanan<br> 30px,
+        padding bawah 50px, dan padding
+        kiri 80px
+    </div>
+
+    <h3>Margin :<br>Margin digunakan untuk menciptakan ruang di sekitar elemen, di luar batas yang ditentukan.</h3>
+    <div class="margin" style="text-align: center;">Elemen div ini memiliki margin atas 100px, margin kanan 150px<br>,
+        margin bawah 100px, dan margin
+        kiri 80px.</div>
+
+    <div class="widthheight">
+        <h3>Height dan Width :<br>CSS height dan width properti digunakan untuk mengatur tinggi dan lebar elemen.</h3>
+        <h5 style="height: 100px;
+        width: 50%;
+        background-color: powderblue; text-align: center;">Elemen ini memiliki tinggi 100<br> piksel dan lebar 50%</h5>
+    </div>
+
+    <div class="font">
+        <h3>Font :<br>Font ini merupakan gaya text.memilih font yang tepat untuk situs web Anda itu penting!</h3>
+
+        <p class="p1">This is a paragraph, shown in the Times New Roman font.</p>
+        <p class="p2">This is a paragraph, shown in the Arial font.</p>
+        <p class="p3">This is a paragraph, shown in the Lucida Console font.</p>
+    </div>
+
+    <div class="maxwidth">
+        <h3>Max-width :<br>Properti CSS max-widthdigunakan untuk mengatur lebar maksimum elemen.</h3>
+        <p style="max-width: 500px;
+        height: 100px;
+        background-color: powderblue; text-align: center;">Elemen ini memiliki tinggi 100 piksel dan lebar maksimum 500
+            piksel:</p>
+    </div>
+
+    <div class="position">
+        <h3>Position :<br>Properti position menentukan jenis metode pemosisian yang digunakan untuk elemen (statis,
+            relatif, tetap, absolut, atau lengket).</h3>
+        <div class="relative">Elemen ini memiliki position: relative;
+            <div class="absolute">Elemen ini memiliki position: absolute;</div>
+        </div>
+
+        <div class="float">
+            <h3>Float :<br>float menentukan bagaimana sebuah elemen harus mengambang.<br>
+                Properti ini floatdigunakan untuk memposisikan dan memformat konten misalnya membiarkan gambar
+                mengambang ke kiri ke teks dalam wadah.<br>
+
+                Properti floatdapat memiliki salah satu dari nilai berikut:<br>
+                <ul>
+                    <li>left- Elemen mengapung di sebelah kiri wadahnya</li>
+                    <li>right- Elemen mengapung di sebelah kanan wadahnya</li>
+                    <li>none- Elemen tidak mengapung (akan ditampilkan tepat di tempat kemunculannya di teks). Ini
+                        default</li>
+                    <li>inherit- Elemen mewarisi nilai float dari induknya</li>
+                    <li>Dalam penggunaannya yang paling sederhana, floatproperti dapat digunakan untuk membungkus teks
+                        di sekitar gambar.</li>
+                </ul>
+            </h3>
+
+            <h2>Float Right</h2>
+
+            <p>In this example, the image will float to the right in the paragraph, and the text in the paragraph will
+                wrap around the image.</p>
+
+            <p><img src="acer.jpg" alt="acer.jpg" style="width:150px; height:150px;margin-left:15px;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum,
+                nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+                congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis
+                sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue.
+                Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet
+                sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non
+                fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.</p>
+        </div>
+
+        <div class="nav">
+            
+        </div>
+</body>
+
+</html>
