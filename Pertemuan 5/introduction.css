@@ -241,3 +241,6 @@ tr:nth-child(even) {
 pre code span {
   color: #a52a2a;
 }
+.body-sidebar ul li:hover {
+  background-color: #636363;
+}
