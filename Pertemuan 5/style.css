@@ -210,10 +210,6 @@ tr:nth-child(even) {
 .label {
   text-align: center;
 }
-.teks-content {
-  font-size: 32px;
-  font-family: "Segoe UI", Arial, sans-serif;
-}
 .isi-content-table a {
   color: #000;
 }
