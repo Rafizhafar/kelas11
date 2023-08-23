@@ -36,6 +36,7 @@ nav:nth-child(1) ul li a {
 nav:nth-child(1) ul li a:hover,
 .nav-button:hover {
   background-color: #04aa6d !important;
+  color: #fff;
 }
 
 nav ul li .content a {
@@ -209,6 +210,7 @@ tr:nth-child(even) {
 }
 .label {
   text-align: center;
+  align-items: center;
 }
 .isi-content-table a {
   color: #000;
@@ -235,4 +237,7 @@ tr:nth-child(even) {
 .content-btn button a img {
   align-items: center;
   justify-items: center;
+}
+pre code span {
+  color: #a52a2a;
 }
