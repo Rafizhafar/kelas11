@@ -1,0 +1,208 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 64, 121, 1) 40%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+nav {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 64, 121, 1) 40%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+@media (min-width: 1024px) {
+  body::before {
+    background-attachment: fixed;
+  }
+}
+.navbar ul a {
+  margin-right: 30px;
+  color: #fff;
+}
+a.navbar-brand {
+  color: #fff;
+}
+ul li .nav-link:hover {
+  color: #00d9ff;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 300px;
+}
+.profileImage {
+  width: 200px;
+}
+.profile h2 {
+  color: white;
+}
+.profile h4 {
+  color: white;
+  transform: translateY(-10px);
+}
+.biodata {
+  background: linear-gradient(#ffffff 0%, #ffffffbe 40%, #ffffff00 100%);
+  padding-bottom: 200px;
+  padding-top: 90px;
+}
+.footer {
+  background-color: white;
+  padding-bottom: 20px;
+}
+.contact a {
+  color: #000;
+  font-size: 20px;
+}
+.watermark {
+  padding-top: 30px;
+}
+/*About Start*/
+.about {
+  height: 400px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(#ffffff 0%, #ffffffbe 40%, #ffffff00 100%);
+}
+.about-me .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #000000;
+}
+.about-me .content ul {
+  list-style: none;
+  padding: 0;
+}
+.about-me .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.about-me .content ul strong {
+  margin-right: 10px;
+}
+.about-me .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #00d9ff;
+  line-height: 0;
+}
+.row .col-lg-4 img {
+  width: auto;
+  height: 250px;
+}
+.about-me h2 {
+  padding-top: 20px;
+}
+.row {
+  color: rgb(0, 0, 0);
+}
+/*End About*/
+/*Start Skill*/
+
+.section-title h2 {
+  color: #000000;
+}
+#skill09 {
+  height: 500px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(#ffffff 0%, #ffffffbe 40%, #ffffff00 100%);
+}
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar {
+  height: 10px;
+  background-color: #00aeff;
+}
+/*end skill*/
+
+/*Start Resume*/
+.pendidikan {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(#ffffff 0%, #ffffffbe 40%, #ffffff00 100%);
+}
+.resume {
+  height: 890px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 64, 121, 1) 40%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #00d9ff;
+  border: 2px solid #00d9ff;
+}
