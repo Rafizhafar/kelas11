@@ -1,0 +1,25 @@
+ULangan Pa egi 
+M.RAFI ZHAFAR
+PASHA DZIKRI ANDREA
+
+INSERT INTO tb_obat (`kode_obat`, `nama_obat`, `jenis`, `satuan`, `stok`, `harga_beli`, `harga_jual`) VALUES ('K001','Allerin 120 cc','Obat Terbatas','Botol','50','20000','22000'),
+('K002','Becombion 110 ml','Obat Bebas','Botol','10','15000','16000'),
+('K003','Becombion 60 ml','Obat Bebas','Botol','5','8000','9000'),
+('K004','Betadine Vag Plus','Obat Bebas','Botol','12','12000','13000'),
+('K005','Komix','Obat Bebas','Lembar','50','4500','5000'),
+('K006','Diazepam','Obat Keras','Tablet','4','55000','60000'),
+('K007','CTM','Obat Bebas','Tablet','3','70000','75000'),
+('K008','Amoxicillin','Obat Terbatas','Tablet','74','975','1100'),
+('K009','Antimo','Obat Bebas','Tablet','2','5100','6000'),
+('K010','Paracetamol','Obat Bebas','Strips','100','3000','4000');
+
+1. WHERE satuan ='Botol';
+2. WHERE jenis='Obat Terbatas' OR jenis='Obat Keras';
+3. WHERE stok <=49;
+4. WHERE satuan !='Tablet';
+5. WHERE jenis='Obat Bebas' ORDER BY harga_jual ASC;
+6. WHERE satuan='Botol'  AND harga_beli BETWEEN 10000 AND 100000;
+7. WHERE jenis ='Obat Bebas' AND stok >=5;
+8. WHERE nama_obat LIKE 'B%';
+9. WHERE nama_obat LIKE '%OM%';
+12. WHERE kode_obat ='K001' OR kode_obat='K003' OR kode_obat='K005' OR kode_obat='K007';
